@@ -21,6 +21,7 @@ import ch01.service.impl.MemberServiceImpl;
 public class FindMemberServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	//SKR12123456789
+	//AQA
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
 		String key = request.getParameter("key");//注意大小寫
